@@ -12,11 +12,11 @@
                                 "text": "[T] Dependency: Apache Commons BeanUtils 1.7.0 thru Struts2 Bootstrap Plugin 2.5.1"
                             },
                             "fullDescription": {
-                                "text": "- C [BDSA-2014-0129](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0129)- C [BDSA-2014-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0001)"
+                                "text": "- [C] [BDSA-2014-0129](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0129)\n- [C] [BDSA-2014-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0001)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.2\n\n### Long Term 5.0.2\n\n## Description\n- C [BDSA-2014-0129](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0129)- C [BDSA-2014-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0001)\n\n## Dependency tree\n-   -commons-beanutils:commons-beanutils:1.7.0      -org.apache.velocity:velocity-tools:2.0            -com.jgeppert.struts2.bootstrap:struts2-bootstrap-plugin:2.5.1                        -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-184](https://cwe.mitre.org/data/definitions/184.html)*Common Weakness Enumeration: [CWE-497](https://cwe.mitre.org/data/definitions/497.html)\n",
-                                "text": "- C [BDSA-2014-0129](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0129)- C [BDSA-2014-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0001)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.2\n\n### Long Term 5.0.2\n\n## Description\n- [C] [BDSA-2014-0129](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0129)\n- [C] [BDSA-2014-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0001)\n\n\n## Dependency tree\n-commons-beanutils:commons-beanutils:1.7.0   -commons-beanutils:commons-beanutils:1.7.0      -org.apache.velocity:velocity-tools:2.0            -com.jgeppert.struts2.bootstrap:struts2-bootstrap-plugin:2.5.1                        -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-184](https://cwe.mitre.org/data/definitions/184.html)\n* Common Weakness Enumeration: [CWE-497](https://cwe.mitre.org/data/definitions/497.html)\n\n",
+                                "text": "- [C] [BDSA-2014-0129](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0129)\n- [C] [BDSA-2014-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0001)\n"
                             },
                             "properties": {
                                 "security-severity": "9.1",
@@ -38,11 +38,11 @@
                                 "text": "[D] Dependency: Apache Commons Codec 1.10"
                             },
                             "fullDescription": {
-                                "text": "- M [BDSA-2012-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0001)"
+                                "text": "- [M] [BDSA-2012-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0001)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  1.16.0\n\n### Long Term 20041127.091804\n\n## Description\n- M [BDSA-2012-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0001)\n\n## Dependency tree\n-\n\n## References\n*Common Weakness Enumeration: [CWE-88](https://cwe.mitre.org/data/definitions/88.html)\n",
-                                "text": "- M [BDSA-2012-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0001)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  1.16.0\n\n### Long Term 20041127.091804\n\n## Description\n- [M] [BDSA-2012-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0001)\n\n\n## Dependency tree\n-commons-codec:commons-codec:1.10\n\n## References\n* Common Weakness Enumeration: [CWE-88](https://cwe.mitre.org/data/definitions/88.html)\n\n",
+                                "text": "- [M] [BDSA-2012-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0001)\n"
                             },
                             "properties": {
                                 "security-severity": "6.8",
@@ -63,11 +63,11 @@
                                 "text": "[T] Dependency: Apache Commons Collections 3.1 thru Hibernate ORM 3.3.1.GA"
                             },
                             "fullDescription": {
-                                "text": "- C [BDSA-2015-0753](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0753)- H [BDSA-2017-2285](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-2285)- H [BDSA-2015-0766](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0766)- H [BDSA-2015-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0001)"
+                                "text": "- [C] [BDSA-2015-0753](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0753)\n- [H] [BDSA-2017-2285](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-2285)\n- [H] [BDSA-2015-0766](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0766)\n- [H] [BDSA-2015-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0001)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  3.6.0.IntAct\n\n### Long Term 6.3.1.Final\n\n## Description\n- C [BDSA-2015-0753](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0753)- H [BDSA-2017-2285](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-2285)- H [BDSA-2015-0766](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0766)- H [BDSA-2015-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0001)\n\n## Dependency tree\n-   -commons-collections:commons-collections:3.1      -org.hibernate:hibernate-core:3.3.1.GA            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)*Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n",
-                                "text": "- C [BDSA-2015-0753](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0753)- H [BDSA-2017-2285](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-2285)- H [BDSA-2015-0766](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0766)- H [BDSA-2015-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0001)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  3.6.0.IntAct\n\n### Long Term 6.3.1.Final\n\n## Description\n- [C] [BDSA-2015-0753](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0753)\n- [H] [BDSA-2017-2285](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-2285)\n- [H] [BDSA-2015-0766](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0766)\n- [H] [BDSA-2015-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0001)\n\n\n## Dependency tree\n-commons-collections:commons-collections:3.1   -commons-collections:commons-collections:3.1      -org.hibernate:hibernate-core:3.3.1.GA            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n\n",
+                                "text": "- [C] [BDSA-2015-0753](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0753)\n- [H] [BDSA-2017-2285](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-2285)\n- [H] [BDSA-2015-0766](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0766)\n- [H] [BDSA-2015-0001](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0001)\n"
                             },
                             "properties": {
                                 "security-severity": "9.1",
@@ -89,11 +89,11 @@
                                 "text": "[T] Dependency: Apache Commons FileUpload 1.3.2 thru Apache Struts 2.3.30"
                             },
                             "fullDescription": {
-                                "text": "- C [BDSA-2013-0013](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0013)- M [BDSA-2023-0357](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0357)- H [BDSA-2016-1573](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1573)"
+                                "text": "- [C] [BDSA-2013-0013](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0013)\n- [M] [BDSA-2023-0357](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0357)\n- [H] [BDSA-2016-1573](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1573)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.32\n\n### Long Term 6.3.0.1\n\n## Description\n- C [BDSA-2013-0013](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0013)- M [BDSA-2023-0357](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0357)- H [BDSA-2016-1573](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1573)\n\n## Dependency tree\n-   -commons-fileupload:commons-fileupload:1.3.2      -org.apache.struts:struts2-core:2.3.30            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-626](https://cwe.mitre.org/data/definitions/626.html)*Common Weakness Enumeration: [CWE-770](https://cwe.mitre.org/data/definitions/770.html)*Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n",
-                                "text": "- C [BDSA-2013-0013](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0013)- M [BDSA-2023-0357](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0357)- H [BDSA-2016-1573](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1573)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.32\n\n### Long Term 6.3.0.1\n\n## Description\n- [C] [BDSA-2013-0013](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0013)\n- [M] [BDSA-2023-0357](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0357)\n- [H] [BDSA-2016-1573](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1573)\n\n\n## Dependency tree\n-commons-fileupload:commons-fileupload:1.3.2   -commons-fileupload:commons-fileupload:1.3.2      -org.apache.struts:struts2-core:2.3.30            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-626](https://cwe.mitre.org/data/definitions/626.html)\n* Common Weakness Enumeration: [CWE-770](https://cwe.mitre.org/data/definitions/770.html)\n* Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n\n",
+                                "text": "- [C] [BDSA-2013-0013](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0013)\n- [M] [BDSA-2023-0357](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0357)\n- [H] [BDSA-2016-1573](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1573)\n"
                             },
                             "properties": {
                                 "security-severity": "9.1",
@@ -116,11 +116,11 @@
                                 "text": "[T] Dependency: Apache Commons IO 2.2 thru Apache Struts 2.3.30"
                             },
                             "fullDescription": {
-                                "text": "- M [BDSA-2021-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0922)"
+                                "text": "- [M] [BDSA-2021-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0922)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.32\n\n### Long Term 6.3.0.1\n\n## Description\n- M [BDSA-2021-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0922)\n\n## Dependency tree\n-   -commons-io:commons-io:2.2      -org.apache.struts:struts2-core:2.3.30            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-22](https://cwe.mitre.org/data/definitions/22.html)\n",
-                                "text": "- M [BDSA-2021-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0922)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.32\n\n### Long Term 6.3.0.1\n\n## Description\n- [M] [BDSA-2021-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0922)\n\n\n## Dependency tree\n-commons-io:commons-io:2.2   -commons-io:commons-io:2.2      -org.apache.struts:struts2-core:2.3.30            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-22](https://cwe.mitre.org/data/definitions/22.html)\n\n",
+                                "text": "- [M] [BDSA-2021-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0922)\n"
                             },
                             "properties": {
                                 "security-severity": "6.8",
@@ -141,11 +141,11 @@
                                 "text": "[T] Dependency: Apache Log4j 1.2.14 thru SLF4J LOG4J-12 Binding 1.5.2"
                             },
                             "fullDescription": {
-                                "text": "- H [BDSA-2022-0118](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0118)- M [BDSA-2022-0119](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0119)- H [BDSA-2022-0117](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0117)- H [BDSA-2021-4371](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4371)- H [BDSA-2021-3764](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3764)- M [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)- C [BDSA-2019-4008](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4008)"
+                                "text": "- [H] [BDSA-2022-0118](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0118)\n- [M] [BDSA-2022-0119](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0119)\n- [H] [BDSA-2022-0117](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0117)\n- [H] [BDSA-2021-4371](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4371)\n- [H] [BDSA-2021-3764](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3764)\n- [M] [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)\n- [C] [BDSA-2019-4008](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4008)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  1.7.36\n\n### Long Term 2.0.9\n\n## Description\n- H [BDSA-2022-0118](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0118)- M [BDSA-2022-0119](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0119)- H [BDSA-2022-0117](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0117)- H [BDSA-2021-4371](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4371)- H [BDSA-2021-3764](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3764)- M [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)- C [BDSA-2019-4008](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4008)\n\n## Dependency tree\n-   -log4j:log4j:1.2.14      -org.slf4j:slf4j-log4j12:1.5.2            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)*Common Weakness Enumeration: [CWE-89](https://cwe.mitre.org/data/definitions/89.html)*Common Weakness Enumeration: [CWE-297](https://cwe.mitre.org/data/definitions/297.html)\n",
-                                "text": "- H [BDSA-2022-0118](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0118)- M [BDSA-2022-0119](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0119)- H [BDSA-2022-0117](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0117)- H [BDSA-2021-4371](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4371)- H [BDSA-2021-3764](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3764)- M [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)- C [BDSA-2019-4008](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4008)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  1.7.36\n\n### Long Term 2.0.9\n\n## Description\n- [H] [BDSA-2022-0118](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0118)\n- [M] [BDSA-2022-0119](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0119)\n- [H] [BDSA-2022-0117](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0117)\n- [H] [BDSA-2021-4371](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4371)\n- [H] [BDSA-2021-3764](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3764)\n- [M] [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)\n- [C] [BDSA-2019-4008](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4008)\n\n\n## Dependency tree\n-log4j:log4j:1.2.14   -log4j:log4j:1.2.14      -org.slf4j:slf4j-log4j12:1.5.2            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n* Common Weakness Enumeration: [CWE-89](https://cwe.mitre.org/data/definitions/89.html)\n* Common Weakness Enumeration: [CWE-297](https://cwe.mitre.org/data/definitions/297.html)\n\n",
+                                "text": "- [H] [BDSA-2022-0118](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0118)\n- [M] [BDSA-2022-0119](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0119)\n- [H] [BDSA-2022-0117](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0117)\n- [H] [BDSA-2021-4371](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4371)\n- [H] [BDSA-2021-3764](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3764)\n- [M] [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)\n- [C] [BDSA-2019-4008](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4008)\n"
                             },
                             "properties": {
                                 "security-severity": "8.9",
@@ -168,11 +168,11 @@
                                 "text": "[D] Dependency: Apache Log4j 2.3"
                             },
                             "fullDescription": {
-                                "text": "- M [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)- C [BDSA-2021-3731](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3731)- M [BDSA-2021-3817](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3817)- M [BDSA-2021-3887](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3887)"
+                                "text": "- [M] [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)\n- [C] [BDSA-2021-3731](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3731)\n- [M] [BDSA-2021-3817](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3817)\n- [M] [BDSA-2021-3887](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3887)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.20.0\n\n### Long Term 2.20.0\n\n## Description\n- M [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)- C [BDSA-2021-3731](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3731)- M [BDSA-2021-3817](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3817)- M [BDSA-2021-3887](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3887)\n\n## Dependency tree\n-\n\n## References\n*Common Weakness Enumeration: [CWE-297](https://cwe.mitre.org/data/definitions/297.html)*Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)*Common Weakness Enumeration: [CWE-835](https://cwe.mitre.org/data/definitions/835.html)*Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n",
-                                "text": "- M [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)- C [BDSA-2021-3731](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3731)- M [BDSA-2021-3817](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3817)- M [BDSA-2021-3887](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3887)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.20.0\n\n### Long Term 2.20.0\n\n## Description\n- [M] [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)\n- [C] [BDSA-2021-3731](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3731)\n- [M] [BDSA-2021-3817](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3817)\n- [M] [BDSA-2021-3887](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3887)\n\n\n## Dependency tree\n-org.apache.logging.log4j:log4j-core:2.3\n\n## References\n* Common Weakness Enumeration: [CWE-297](https://cwe.mitre.org/data/definitions/297.html)\n* Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n* Common Weakness Enumeration: [CWE-835](https://cwe.mitre.org/data/definitions/835.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n\n",
+                                "text": "- [M] [BDSA-2020-1398](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-1398)\n- [C] [BDSA-2021-3731](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3731)\n- [M] [BDSA-2021-3817](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3817)\n- [M] [BDSA-2021-3887](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3887)\n"
                             },
                             "properties": {
                                 "security-severity": "6.8",
@@ -196,11 +196,11 @@
                                 "text": "[D] Dependency: Apache Struts 2.3.30"
                             },
                             "fullDescription": {
-                                "text": "- H [BDSA-2016-1521](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1521)- H [BDSA-2012-0043](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0043)- M [BDSA-2016-1554](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1554)- M [BDSA-2016-1559](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1559)- H [BDSA-2016-1560](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1560)- M [BDSA-2016-1561](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1561)- C [BDSA-2017-0031](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0031)- M [BDSA-2017-0361](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0361)- L [BDSA-2017-0362](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0362)- C [BDSA-2017-0367](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0367)- C [BDSA-2017-0903](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0903)- M [BDSA-2017-0913](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0913)- M [BDSA-2017-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0922)- C [BDSA-2017-0954](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0954)- M [BDSA-2018-0878](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0878)- C [BDSA-2018-2905](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2905)- C [BDSA-2020-2097](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2097)- L [BDSA-2020-2169](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2169)- C [BDSA-2020-3670](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3670)- C [BDSA-2022-1011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1011)- L [BDSA-2023-1477](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1477)"
+                                "text": "- [H] [BDSA-2016-1521](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1521)\n- [H] [BDSA-2012-0043](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0043)\n- [M] [BDSA-2016-1554](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1554)\n- [M] [BDSA-2016-1559](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1559)\n- [H] [BDSA-2016-1560](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1560)\n- [M] [BDSA-2016-1561](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1561)\n- [C] [BDSA-2017-0031](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0031)\n- [M] [BDSA-2017-0361](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0361)\n- [L] [BDSA-2017-0362](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0362)\n- [C] [BDSA-2017-0367](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0367)\n- [C] [BDSA-2017-0903](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0903)\n- [M] [BDSA-2017-0913](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0913)\n- [M] [BDSA-2017-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0922)\n- [C] [BDSA-2017-0954](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0954)\n- [M] [BDSA-2018-0878](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0878)\n- [C] [BDSA-2018-2905](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2905)\n- [C] [BDSA-2020-2097](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2097)\n- [L] [BDSA-2020-2169](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2169)\n- [C] [BDSA-2020-3670](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3670)\n- [C] [BDSA-2022-1011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1011)\n- [L] [BDSA-2023-1477](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1477)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.32\n\n### Long Term 6.3.0.1\n\n## Description\n- H [BDSA-2016-1521](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1521)- H [BDSA-2012-0043](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0043)- M [BDSA-2016-1554](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1554)- M [BDSA-2016-1559](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1559)- H [BDSA-2016-1560](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1560)- M [BDSA-2016-1561](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1561)- C [BDSA-2017-0031](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0031)- M [BDSA-2017-0361](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0361)- L [BDSA-2017-0362](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0362)- C [BDSA-2017-0367](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0367)- C [BDSA-2017-0903](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0903)- M [BDSA-2017-0913](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0913)- M [BDSA-2017-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0922)- C [BDSA-2017-0954](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0954)- M [BDSA-2018-0878](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0878)- C [BDSA-2018-2905](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2905)- C [BDSA-2020-2097](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2097)- L [BDSA-2020-2169](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2169)- C [BDSA-2020-3670](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3670)- C [BDSA-2022-1011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1011)- L [BDSA-2023-1477](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1477)\n\n## Dependency tree\n-\n\n## References\n*Common Weakness Enumeration: [CWE-22](https://cwe.mitre.org/data/definitions/22.html)*Common Weakness Enumeration: [CWE-434](https://cwe.mitre.org/data/definitions/434.html)*Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)*Common Weakness Enumeration: [CWE-79](https://cwe.mitre.org/data/definitions/79.html)*Common Weakness Enumeration: [CWE-16](https://cwe.mitre.org/data/definitions/16.html)*Common Weakness Enumeration: [CWE-755](https://cwe.mitre.org/data/definitions/755.html)*Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)*Common Weakness Enumeration: [CWE-94](https://cwe.mitre.org/data/definitions/94.html)*Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)*Common Weakness Enumeration: [CWE-154](https://cwe.mitre.org/data/definitions/154.html)*Common Weakness Enumeration: [CWE-917](https://cwe.mitre.org/data/definitions/917.html)*Common Weakness Enumeration: [CWE-284](https://cwe.mitre.org/data/definitions/284.html)\n",
-                                "text": "- H [BDSA-2016-1521](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1521)- H [BDSA-2012-0043](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0043)- M [BDSA-2016-1554](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1554)- M [BDSA-2016-1559](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1559)- H [BDSA-2016-1560](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1560)- M [BDSA-2016-1561](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1561)- C [BDSA-2017-0031](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0031)- M [BDSA-2017-0361](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0361)- L [BDSA-2017-0362](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0362)- C [BDSA-2017-0367](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0367)- C [BDSA-2017-0903](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0903)- M [BDSA-2017-0913](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0913)- M [BDSA-2017-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0922)- C [BDSA-2017-0954](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0954)- M [BDSA-2018-0878](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0878)- C [BDSA-2018-2905](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2905)- C [BDSA-2020-2097](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2097)- L [BDSA-2020-2169](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2169)- C [BDSA-2020-3670](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3670)- C [BDSA-2022-1011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1011)- L [BDSA-2023-1477](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1477)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.32\n\n### Long Term 6.3.0.1\n\n## Description\n- [H] [BDSA-2016-1521](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1521)\n- [H] [BDSA-2012-0043](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0043)\n- [M] [BDSA-2016-1554](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1554)\n- [M] [BDSA-2016-1559](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1559)\n- [H] [BDSA-2016-1560](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1560)\n- [M] [BDSA-2016-1561](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1561)\n- [C] [BDSA-2017-0031](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0031)\n- [M] [BDSA-2017-0361](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0361)\n- [L] [BDSA-2017-0362](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0362)\n- [C] [BDSA-2017-0367](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0367)\n- [C] [BDSA-2017-0903](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0903)\n- [M] [BDSA-2017-0913](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0913)\n- [M] [BDSA-2017-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0922)\n- [C] [BDSA-2017-0954](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0954)\n- [M] [BDSA-2018-0878](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0878)\n- [C] [BDSA-2018-2905](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2905)\n- [C] [BDSA-2020-2097](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2097)\n- [L] [BDSA-2020-2169](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2169)\n- [C] [BDSA-2020-3670](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3670)\n- [C] [BDSA-2022-1011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1011)\n- [L] [BDSA-2023-1477](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1477)\n\n\n## Dependency tree\n-org.apache.struts:struts2-core:2.3.30\n\n## References\n* Common Weakness Enumeration: [CWE-22](https://cwe.mitre.org/data/definitions/22.html)\n* Common Weakness Enumeration: [CWE-434](https://cwe.mitre.org/data/definitions/434.html)\n* Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)\n* Common Weakness Enumeration: [CWE-79](https://cwe.mitre.org/data/definitions/79.html)\n* Common Weakness Enumeration: [CWE-16](https://cwe.mitre.org/data/definitions/16.html)\n* Common Weakness Enumeration: [CWE-755](https://cwe.mitre.org/data/definitions/755.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-94](https://cwe.mitre.org/data/definitions/94.html)\n* Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n* Common Weakness Enumeration: [CWE-154](https://cwe.mitre.org/data/definitions/154.html)\n* Common Weakness Enumeration: [CWE-917](https://cwe.mitre.org/data/definitions/917.html)\n* Common Weakness Enumeration: [CWE-284](https://cwe.mitre.org/data/definitions/284.html)\n\n",
+                                "text": "- [H] [BDSA-2016-1521](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1521)\n- [H] [BDSA-2012-0043](https://openhub.net/vulnerabilities/bdsa/BDSA-2012-0043)\n- [M] [BDSA-2016-1554](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1554)\n- [M] [BDSA-2016-1559](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1559)\n- [H] [BDSA-2016-1560](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1560)\n- [M] [BDSA-2016-1561](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1561)\n- [C] [BDSA-2017-0031](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0031)\n- [M] [BDSA-2017-0361](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0361)\n- [L] [BDSA-2017-0362](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0362)\n- [C] [BDSA-2017-0367](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0367)\n- [C] [BDSA-2017-0903](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0903)\n- [M] [BDSA-2017-0913](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0913)\n- [M] [BDSA-2017-0922](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0922)\n- [C] [BDSA-2017-0954](https://openhub.net/vulnerabilities/bdsa/BDSA-2017-0954)\n- [M] [BDSA-2018-0878](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0878)\n- [C] [BDSA-2018-2905](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2905)\n- [C] [BDSA-2020-2097](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2097)\n- [L] [BDSA-2020-2169](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2169)\n- [C] [BDSA-2020-3670](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3670)\n- [C] [BDSA-2022-1011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1011)\n- [L] [BDSA-2023-1477](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-1477)\n"
                             },
                             "properties": {
                                 "security-severity": "8.9",
@@ -232,11 +232,11 @@
                                 "text": "[T] Dependency: Apache Struts 1.3.8 thru Struts2 Bootstrap Plugin 2.5.1"
                             },
                             "fullDescription": {
-                                "text": "- H [CVE-2015-0899](https://nvd.nist.gov/vuln/detail/CVE-2015-0899)- H [CVE-2016-1181](https://nvd.nist.gov/vuln/detail/CVE-2016-1181)- H [CVE-2016-1182](https://nvd.nist.gov/vuln/detail/CVE-2016-1182)"
+                                "text": "- [H] [CVE-2015-0899](https://nvd.nist.gov/vuln/detail/CVE-2015-0899)\n- [H] [CVE-2016-1181](https://nvd.nist.gov/vuln/detail/CVE-2016-1181)\n- [H] [CVE-2016-1182](https://nvd.nist.gov/vuln/detail/CVE-2016-1182)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.2\n\n### Long Term 5.0.2\n\n## Description\n- H [CVE-2015-0899](https://nvd.nist.gov/vuln/detail/CVE-2015-0899)- H [CVE-2016-1181](https://nvd.nist.gov/vuln/detail/CVE-2016-1181)- H [CVE-2016-1182](https://nvd.nist.gov/vuln/detail/CVE-2016-1182)\n\n## Dependency tree\n-   -org.apache.struts:struts-taglib:1.3.8      -org.apache.velocity:velocity-tools:2.0            -com.jgeppert.struts2.bootstrap:struts2-bootstrap-plugin:2.5.1                        -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n",
-                                "text": "- H [CVE-2015-0899](https://nvd.nist.gov/vuln/detail/CVE-2015-0899)- H [CVE-2016-1181](https://nvd.nist.gov/vuln/detail/CVE-2016-1181)- H [CVE-2016-1182](https://nvd.nist.gov/vuln/detail/CVE-2016-1182)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.2\n\n### Long Term 5.0.2\n\n## Description\n- [H] [CVE-2015-0899](https://nvd.nist.gov/vuln/detail/CVE-2015-0899)\n- [H] [CVE-2016-1181](https://nvd.nist.gov/vuln/detail/CVE-2016-1181)\n- [H] [CVE-2016-1182](https://nvd.nist.gov/vuln/detail/CVE-2016-1182)\n\n\n## Dependency tree\n-org.apache.struts:struts-taglib:1.3.8   -org.apache.struts:struts-taglib:1.3.8      -org.apache.velocity:velocity-tools:2.0            -com.jgeppert.struts2.bootstrap:struts2-bootstrap-plugin:2.5.1                        -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n\n",
+                                "text": "- [H] [CVE-2015-0899](https://nvd.nist.gov/vuln/detail/CVE-2015-0899)\n- [H] [CVE-2016-1181](https://nvd.nist.gov/vuln/detail/CVE-2016-1181)\n- [H] [CVE-2016-1182](https://nvd.nist.gov/vuln/detail/CVE-2016-1182)\n"
                             },
                             "properties": {
                                 "security-severity": "8.9",
@@ -258,11 +258,11 @@
                                 "text": "[T] Dependency: Apache Velocity 2.0 thru Struts2 Bootstrap Plugin 2.5.1"
                             },
                             "fullDescription": {
-                                "text": "- H [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)"
+                                "text": "- [H] [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.2\n\n### Long Term 5.0.2\n\n## Description\n- H [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)\n\n## Dependency tree\n-   -org.apache.velocity:velocity-tools:2.0      -com.jgeppert.struts2.bootstrap:struts2-bootstrap-plugin:2.5.1            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n",
-                                "text": "- H [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.2\n\n### Long Term 5.0.2\n\n## Description\n- [H] [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)\n\n\n## Dependency tree\n-org.apache.velocity:velocity-tools:2.0   -org.apache.velocity:velocity-tools:2.0      -com.jgeppert.struts2.bootstrap:struts2-bootstrap-plugin:2.5.1            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n\n",
+                                "text": "- [H] [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)\n"
                             },
                             "properties": {
                                 "security-severity": "8.9",
@@ -283,11 +283,11 @@
                                 "text": "[T] Dependency: Apache Velocity 1.6.2 thru Struts2 Bootstrap Plugin 2.5.1"
                             },
                             "fullDescription": {
-                                "text": "- H [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)"
+                                "text": "- [H] [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.2\n\n### Long Term 5.0.2\n\n## Description\n- H [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)\n\n## Dependency tree\n-   -org.apache.velocity:velocity:1.6.2      -org.apache.velocity:velocity-tools:2.0            -com.jgeppert.struts2.bootstrap:struts2-bootstrap-plugin:2.5.1                        -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n",
-                                "text": "- H [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.2\n\n### Long Term 5.0.2\n\n## Description\n- [H] [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)\n\n\n## Dependency tree\n-org.apache.velocity:velocity:1.6.2   -org.apache.velocity:velocity:1.6.2      -org.apache.velocity:velocity-tools:2.0            -com.jgeppert.struts2.bootstrap:struts2-bootstrap-plugin:2.5.1                        -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n\n",
+                                "text": "- [H] [BDSA-2021-0710](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-0710)\n"
                             },
                             "properties": {
                                 "security-severity": "8.9",
@@ -308,11 +308,11 @@
                                 "text": "[D] Dependency: Hibernate ORM 3.3.1.GA"
                             },
                             "fullDescription": {
-                                "text": "- H [BDSA-2020-3410](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3410)- M [BDSA-2019-4479](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4479)"
+                                "text": "- [H] [BDSA-2020-3410](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3410)\n- [M] [BDSA-2019-4479](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4479)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  3.6.0.IntAct\n\n### Long Term 6.3.1.Final\n\n## Description\n- H [BDSA-2020-3410](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3410)- M [BDSA-2019-4479](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4479)\n\n## Dependency tree\n-\n\n## References\n*Common Weakness Enumeration: [CWE-89](https://cwe.mitre.org/data/definitions/89.html)\n",
-                                "text": "- H [BDSA-2020-3410](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3410)- M [BDSA-2019-4479](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4479)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  3.6.0.IntAct\n\n### Long Term 6.3.1.Final\n\n## Description\n- [H] [BDSA-2020-3410](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3410)\n- [M] [BDSA-2019-4479](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4479)\n\n\n## Dependency tree\n-org.hibernate:hibernate-core:3.3.1.GA\n\n## References\n* Common Weakness Enumeration: [CWE-89](https://cwe.mitre.org/data/definitions/89.html)\n\n",
+                                "text": "- [H] [BDSA-2020-3410](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-3410)\n- [M] [BDSA-2019-4479](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4479)\n"
                             },
                             "properties": {
                                 "security-severity": "8.9",
@@ -333,11 +333,11 @@
                                 "text": "[D] Dependency: MySQL Connector/J 5.1.42"
                             },
                             "fullDescription": {
-                                "text": "- L [BDSA-2020-0784](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0784)- M [BDSA-2021-3118](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3118)- M [BDSA-2022-0160](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0160)- H [BDSA-2018-3599](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-3599)- M [BDSA-2019-1244](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-1244)- M [BDSA-2019-3759](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3759)- M [BDSA-2020-0780](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0780)- M [BDSA-2020-0782](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0782)"
+                                "text": "- [L] [BDSA-2020-0784](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0784)\n- [M] [BDSA-2021-3118](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3118)\n- [M] [BDSA-2022-0160](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0160)\n- [H] [BDSA-2018-3599](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-3599)\n- [M] [BDSA-2019-1244](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-1244)\n- [M] [BDSA-2019-3759](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3759)\n- [M] [BDSA-2020-0780](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0780)\n- [M] [BDSA-2020-0782](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0782)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  5.1.49\n\n### Long Term 8.0.33\n\n## Description\n- L [BDSA-2020-0784](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0784)- M [BDSA-2021-3118](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3118)- M [BDSA-2022-0160](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0160)- H [BDSA-2018-3599](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-3599)- M [BDSA-2019-1244](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-1244)- M [BDSA-2019-3759](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3759)- M [BDSA-2020-0780](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0780)- M [BDSA-2020-0782](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0782)\n\n## Dependency tree\n-\n\n## References\n*Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)*Common Weakness Enumeration: [CWE-114](https://cwe.mitre.org/data/definitions/114.html)*Common Weakness Enumeration: [CWE-265](https://cwe.mitre.org/data/definitions/265.html)*Common Weakness Enumeration: [CWE-749](https://cwe.mitre.org/data/definitions/749.html)*Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n",
-                                "text": "- L [BDSA-2020-0784](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0784)- M [BDSA-2021-3118](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3118)- M [BDSA-2022-0160](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0160)- H [BDSA-2018-3599](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-3599)- M [BDSA-2019-1244](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-1244)- M [BDSA-2019-3759](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3759)- M [BDSA-2020-0780](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0780)- M [BDSA-2020-0782](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0782)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  5.1.49\n\n### Long Term 8.0.33\n\n## Description\n- [L] [BDSA-2020-0784](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0784)\n- [M] [BDSA-2021-3118](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3118)\n- [M] [BDSA-2022-0160](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0160)\n- [H] [BDSA-2018-3599](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-3599)\n- [M] [BDSA-2019-1244](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-1244)\n- [M] [BDSA-2019-3759](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3759)\n- [M] [BDSA-2020-0780](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0780)\n- [M] [BDSA-2020-0782](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0782)\n\n\n## Dependency tree\n-mysql:mysql-connector-java:5.1.42\n\n## References\n* Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)\n* Common Weakness Enumeration: [CWE-114](https://cwe.mitre.org/data/definitions/114.html)\n* Common Weakness Enumeration: [CWE-265](https://cwe.mitre.org/data/definitions/265.html)\n* Common Weakness Enumeration: [CWE-749](https://cwe.mitre.org/data/definitions/749.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n\n",
+                                "text": "- [L] [BDSA-2020-0784](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0784)\n- [M] [BDSA-2021-3118](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3118)\n- [M] [BDSA-2022-0160](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0160)\n- [H] [BDSA-2018-3599](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-3599)\n- [M] [BDSA-2019-1244](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-1244)\n- [M] [BDSA-2019-3759](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-3759)\n- [M] [BDSA-2020-0780](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0780)\n- [M] [BDSA-2020-0782](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-0782)\n"
                             },
                             "properties": {
                                 "security-severity": "3.8",
@@ -363,11 +363,11 @@
                                 "text": "[T] Dependency: Spring Framework 3.0.5 thru Apache Struts 2.3.30"
                             },
                             "fullDescription": {
-                                "text": "- H [BDSA-2014-0108](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0108)- H [BDSA-2014-0110](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0110)- M [BDSA-2014-0111](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0111)- H [BDSA-2015-0743](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0743)- H [BDSA-2016-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-0002)- H [BDSA-2016-1700](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1700)- H [BDSA-2018-0994](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0994)- M [BDSA-2018-1013](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1013)- L [BDSA-2018-1016](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1016)- H [BDSA-2018-1042](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1042)- M [BDSA-2018-1440](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1440)- M [BDSA-2018-1960](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1960)- M [BDSA-2020-2431](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2431)- M [BDSA-2021-2310](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-2310)- M [BDSA-2021-3236](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3236)- M [BDSA-2022-0011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0011)- H [BDSA-2022-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0847)- C [BDSA-2022-0858](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0858)- L [BDSA-2022-1040](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1040)- H [BDSA-2022-3109](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3109)- M [BDSA-2023-0638](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0638)- M [BDSA-2023-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0847)- H [BDSA-2008-0003](https://openhub.net/vulnerabilities/bdsa/BDSA-2008-0003)- H [BDSA-2011-0022](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0022)- M [BDSA-2011-0024](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0024)- H [BDSA-2013-0034](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0034)- H [BDSA-2013-0035](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0035)- H [BDSA-2014-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0002)- H [BDSA-2014-0106](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0106)- M [BDSA-2014-0107](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0107)"
+                                "text": "- [H] [BDSA-2014-0108](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0108)\n- [H] [BDSA-2014-0110](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0110)\n- [M] [BDSA-2014-0111](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0111)\n- [H] [BDSA-2015-0743](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0743)\n- [H] [BDSA-2016-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-0002)\n- [H] [BDSA-2016-1700](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1700)\n- [H] [BDSA-2018-0994](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0994)\n- [M] [BDSA-2018-1013](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1013)\n- [L] [BDSA-2018-1016](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1016)\n- [H] [BDSA-2018-1042](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1042)\n- [M] [BDSA-2018-1440](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1440)\n- [M] [BDSA-2018-1960](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1960)\n- [M] [BDSA-2020-2431](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2431)\n- [M] [BDSA-2021-2310](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-2310)\n- [M] [BDSA-2021-3236](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3236)\n- [M] [BDSA-2022-0011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0011)\n- [H] [BDSA-2022-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0847)\n- [C] [BDSA-2022-0858](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0858)\n- [L] [BDSA-2022-1040](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1040)\n- [H] [BDSA-2022-3109](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3109)\n- [M] [BDSA-2023-0638](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0638)\n- [M] [BDSA-2023-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0847)\n- [H] [BDSA-2008-0003](https://openhub.net/vulnerabilities/bdsa/BDSA-2008-0003)\n- [H] [BDSA-2011-0022](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0022)\n- [M] [BDSA-2011-0024](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0024)\n- [H] [BDSA-2013-0034](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0034)\n- [H] [BDSA-2013-0035](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0035)\n- [H] [BDSA-2014-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0002)\n- [H] [BDSA-2014-0106](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0106)\n- [M] [BDSA-2014-0107](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0107)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.32\n\n### Long Term 6.3.0.1\n\n## Description\n- H [BDSA-2014-0108](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0108)- H [BDSA-2014-0110](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0110)- M [BDSA-2014-0111](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0111)- H [BDSA-2015-0743](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0743)- H [BDSA-2016-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-0002)- H [BDSA-2016-1700](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1700)- H [BDSA-2018-0994](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0994)- M [BDSA-2018-1013](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1013)- L [BDSA-2018-1016](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1016)- H [BDSA-2018-1042](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1042)- M [BDSA-2018-1440](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1440)- M [BDSA-2018-1960](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1960)- M [BDSA-2020-2431](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2431)- M [BDSA-2021-2310](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-2310)- M [BDSA-2021-3236](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3236)- M [BDSA-2022-0011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0011)- H [BDSA-2022-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0847)- C [BDSA-2022-0858](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0858)- L [BDSA-2022-1040](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1040)- H [BDSA-2022-3109](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3109)- M [BDSA-2023-0638](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0638)- M [BDSA-2023-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0847)- H [BDSA-2008-0003](https://openhub.net/vulnerabilities/bdsa/BDSA-2008-0003)- H [BDSA-2011-0022](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0022)- M [BDSA-2011-0024](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0024)- H [BDSA-2013-0034](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0034)- H [BDSA-2013-0035](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0035)- H [BDSA-2014-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0002)- H [BDSA-2014-0106](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0106)- M [BDSA-2014-0107](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0107)\n\n## Dependency tree\n-   -org.springframework:spring-asm:3.0.5.RELEASE      -org.springframework:spring-core:3.0.5.RELEASE            -org.apache.struts:struts2-junit-plugin:2.3.30                        -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-611](https://cwe.mitre.org/data/definitions/611.html)*Common Weakness Enumeration: [CWE-79](https://cwe.mitre.org/data/definitions/79.html)*Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)*Common Weakness Enumeration: [CWE-23](https://cwe.mitre.org/data/definitions/23.html)*Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)*Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)*Common Weakness Enumeration: [CWE-650](https://cwe.mitre.org/data/definitions/650.html)*Common Weakness Enumeration: [CWE-74](https://cwe.mitre.org/data/definitions/74.html)*Common Weakness Enumeration: [CWE-749](https://cwe.mitre.org/data/definitions/749.html)*Common Weakness Enumeration: [CWE-285](https://cwe.mitre.org/data/definitions/285.html)*Common Weakness Enumeration: [CWE-95](https://cwe.mitre.org/data/definitions/95.html)*Common Weakness Enumeration: [CWE-113](https://cwe.mitre.org/data/definitions/113.html)*Common Weakness Enumeration: [CWE-22](https://cwe.mitre.org/data/definitions/22.html)\n",
-                                "text": "- H [BDSA-2014-0108](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0108)- H [BDSA-2014-0110](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0110)- M [BDSA-2014-0111](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0111)- H [BDSA-2015-0743](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0743)- H [BDSA-2016-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-0002)- H [BDSA-2016-1700](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1700)- H [BDSA-2018-0994](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0994)- M [BDSA-2018-1013](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1013)- L [BDSA-2018-1016](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1016)- H [BDSA-2018-1042](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1042)- M [BDSA-2018-1440](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1440)- M [BDSA-2018-1960](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1960)- M [BDSA-2020-2431](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2431)- M [BDSA-2021-2310](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-2310)- M [BDSA-2021-3236](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3236)- M [BDSA-2022-0011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0011)- H [BDSA-2022-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0847)- C [BDSA-2022-0858](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0858)- L [BDSA-2022-1040](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1040)- H [BDSA-2022-3109](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3109)- M [BDSA-2023-0638](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0638)- M [BDSA-2023-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0847)- H [BDSA-2008-0003](https://openhub.net/vulnerabilities/bdsa/BDSA-2008-0003)- H [BDSA-2011-0022](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0022)- M [BDSA-2011-0024](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0024)- H [BDSA-2013-0034](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0034)- H [BDSA-2013-0035](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0035)- H [BDSA-2014-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0002)- H [BDSA-2014-0106](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0106)- M [BDSA-2014-0107](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0107)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.5.32\n\n### Long Term 6.3.0.1\n\n## Description\n- [H] [BDSA-2014-0108](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0108)\n- [H] [BDSA-2014-0110](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0110)\n- [M] [BDSA-2014-0111](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0111)\n- [H] [BDSA-2015-0743](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0743)\n- [H] [BDSA-2016-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-0002)\n- [H] [BDSA-2016-1700](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1700)\n- [H] [BDSA-2018-0994](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0994)\n- [M] [BDSA-2018-1013](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1013)\n- [L] [BDSA-2018-1016](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1016)\n- [H] [BDSA-2018-1042](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1042)\n- [M] [BDSA-2018-1440](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1440)\n- [M] [BDSA-2018-1960](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1960)\n- [M] [BDSA-2020-2431](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2431)\n- [M] [BDSA-2021-2310](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-2310)\n- [M] [BDSA-2021-3236](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3236)\n- [M] [BDSA-2022-0011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0011)\n- [H] [BDSA-2022-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0847)\n- [C] [BDSA-2022-0858](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0858)\n- [L] [BDSA-2022-1040](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1040)\n- [H] [BDSA-2022-3109](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3109)\n- [M] [BDSA-2023-0638](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0638)\n- [M] [BDSA-2023-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0847)\n- [H] [BDSA-2008-0003](https://openhub.net/vulnerabilities/bdsa/BDSA-2008-0003)\n- [H] [BDSA-2011-0022](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0022)\n- [M] [BDSA-2011-0024](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0024)\n- [H] [BDSA-2013-0034](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0034)\n- [H] [BDSA-2013-0035](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0035)\n- [H] [BDSA-2014-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0002)\n- [H] [BDSA-2014-0106](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0106)\n- [M] [BDSA-2014-0107](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0107)\n\n\n## Dependency tree\n-org.springframework:spring-asm:3.0.5.RELEASE   -org.springframework:spring-asm:3.0.5.RELEASE      -org.springframework:spring-core:3.0.5.RELEASE            -org.apache.struts:struts2-junit-plugin:2.3.30                        -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-611](https://cwe.mitre.org/data/definitions/611.html)\n* Common Weakness Enumeration: [CWE-79](https://cwe.mitre.org/data/definitions/79.html)\n* Common Weakness Enumeration: [CWE-20](https://cwe.mitre.org/data/definitions/20.html)\n* Common Weakness Enumeration: [CWE-23](https://cwe.mitre.org/data/definitions/23.html)\n* Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n* Common Weakness Enumeration: [CWE-400](https://cwe.mitre.org/data/definitions/400.html)\n* Common Weakness Enumeration: [CWE-650](https://cwe.mitre.org/data/definitions/650.html)\n* Common Weakness Enumeration: [CWE-74](https://cwe.mitre.org/data/definitions/74.html)\n* Common Weakness Enumeration: [CWE-749](https://cwe.mitre.org/data/definitions/749.html)\n* Common Weakness Enumeration: [CWE-285](https://cwe.mitre.org/data/definitions/285.html)\n* Common Weakness Enumeration: [CWE-95](https://cwe.mitre.org/data/definitions/95.html)\n* Common Weakness Enumeration: [CWE-113](https://cwe.mitre.org/data/definitions/113.html)\n* Common Weakness Enumeration: [CWE-22](https://cwe.mitre.org/data/definitions/22.html)\n\n",
+                                "text": "- [H] [BDSA-2014-0108](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0108)\n- [H] [BDSA-2014-0110](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0110)\n- [M] [BDSA-2014-0111](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0111)\n- [H] [BDSA-2015-0743](https://openhub.net/vulnerabilities/bdsa/BDSA-2015-0743)\n- [H] [BDSA-2016-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-0002)\n- [H] [BDSA-2016-1700](https://openhub.net/vulnerabilities/bdsa/BDSA-2016-1700)\n- [H] [BDSA-2018-0994](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-0994)\n- [M] [BDSA-2018-1013](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1013)\n- [L] [BDSA-2018-1016](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1016)\n- [H] [BDSA-2018-1042](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1042)\n- [M] [BDSA-2018-1440](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1440)\n- [M] [BDSA-2018-1960](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-1960)\n- [M] [BDSA-2020-2431](https://openhub.net/vulnerabilities/bdsa/BDSA-2020-2431)\n- [M] [BDSA-2021-2310](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-2310)\n- [M] [BDSA-2021-3236](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-3236)\n- [M] [BDSA-2022-0011](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0011)\n- [H] [BDSA-2022-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0847)\n- [C] [BDSA-2022-0858](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-0858)\n- [L] [BDSA-2022-1040](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-1040)\n- [H] [BDSA-2022-3109](https://openhub.net/vulnerabilities/bdsa/BDSA-2022-3109)\n- [M] [BDSA-2023-0638](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0638)\n- [M] [BDSA-2023-0847](https://openhub.net/vulnerabilities/bdsa/BDSA-2023-0847)\n- [H] [BDSA-2008-0003](https://openhub.net/vulnerabilities/bdsa/BDSA-2008-0003)\n- [H] [BDSA-2011-0022](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0022)\n- [M] [BDSA-2011-0024](https://openhub.net/vulnerabilities/bdsa/BDSA-2011-0024)\n- [H] [BDSA-2013-0034](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0034)\n- [H] [BDSA-2013-0035](https://openhub.net/vulnerabilities/bdsa/BDSA-2013-0035)\n- [H] [BDSA-2014-0002](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0002)\n- [H] [BDSA-2014-0106](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0106)\n- [M] [BDSA-2014-0107](https://openhub.net/vulnerabilities/bdsa/BDSA-2014-0107)\n"
                             },
                             "properties": {
                                 "security-severity": "8.9",
@@ -400,11 +400,11 @@
                                 "text": "[T] Dependency: dom4j: flexible XML framework for Java 1.6.1 thru Hibernate ORM 3.3.1.GA"
                             },
                             "fullDescription": {
-                                "text": "- H [BDSA-2019-4386](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4386)- L [BDSA-2018-2898](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2898)"
+                                "text": "- [H] [BDSA-2019-4386](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4386)\n- [L] [BDSA-2018-2898](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2898)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  3.6.0.IntAct\n\n### Long Term 6.3.1.Final\n\n## Description\n- H [BDSA-2019-4386](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4386)- L [BDSA-2018-2898](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2898)\n\n## Dependency tree\n-   -dom4j:dom4j:1.6.1      -org.hibernate:hibernate-core:3.3.1.GA            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n*Common Weakness Enumeration: [CWE-611](https://cwe.mitre.org/data/definitions/611.html)*Common Weakness Enumeration: [CWE-91](https://cwe.mitre.org/data/definitions/91.html)\n",
-                                "text": "- H [BDSA-2019-4386](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4386)- L [BDSA-2018-2898](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2898)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  3.6.0.IntAct\n\n### Long Term 6.3.1.Final\n\n## Description\n- [H] [BDSA-2019-4386](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4386)\n- [L] [BDSA-2018-2898](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2898)\n\n\n## Dependency tree\n-dom4j:dom4j:1.6.1   -dom4j:dom4j:1.6.1      -org.hibernate:hibernate-core:3.3.1.GA            -com.appsecco:dvja:1.0-SNAPSHOT:-maven\n\n## References\n* Common Weakness Enumeration: [CWE-611](https://cwe.mitre.org/data/definitions/611.html)\n* Common Weakness Enumeration: [CWE-91](https://cwe.mitre.org/data/definitions/91.html)\n\n",
+                                "text": "- [H] [BDSA-2019-4386](https://openhub.net/vulnerabilities/bdsa/BDSA-2019-4386)\n- [L] [BDSA-2018-2898](https://openhub.net/vulnerabilities/bdsa/BDSA-2018-2898)\n"
                             },
                             "properties": {
                                 "security-severity": "8.9",
@@ -426,11 +426,11 @@
                                 "text": "[D] Dependency: google-gson 2.8.1"
                             },
                             "fullDescription": {
-                                "text": "- M [BDSA-2021-4363](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4363)"
+                                "text": "- [M] [BDSA-2021-4363](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4363)\n"
                             },
                             "help": {
-                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.10.1\n\n### Long Term 2.10.1\n\n## Description\n- M [BDSA-2021-4363](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4363)\n\n## Dependency tree\n-\n\n## References\n*Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n",
-                                "text": "- M [BDSA-2021-4363](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4363)"
+                                "markdown": "\n## Upgrade Guidance\n\n### Short Term  2.10.1\n\n### Long Term 2.10.1\n\n## Description\n- [M] [BDSA-2021-4363](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4363)\n\n\n## Dependency tree\n-com.google.code.gson:gson:2.8.1\n\n## References\n* Common Weakness Enumeration: [CWE-502](https://cwe.mitre.org/data/definitions/502.html)\n\n",
+                                "text": "- [M] [BDSA-2021-4363](https://openhub.net/vulnerabilities/bdsa/BDSA-2021-4363)\n"
                             },
                             "properties": {
                                 "security-severity": "6.8",
@@ -457,6 +457,27 @@
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Commons BeanUtils 1.7.0",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "38d14437e52f55a32d946e5589b90362178f8bfc942febbf7c9e45c50cedc2d9"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
                                     "uri": "pom.xml"
                                 },
                                 "region": {
@@ -468,6 +489,69 @@
                     "ruleId": "Apache Commons Codec 1.10",
                     "partialFingerprints": {
                         "primaryLocationLineHash": "a084b1ae54fc2184e0217daf06c9d3e3b198b8c4122e7df70e67b592694a9ca9"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Commons Collections 3.1",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "58b8bc7d3161249be1237cfe573d81c18d9b1b127ce679868031cc0d8200402b"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Commons FileUpload 1.3.2",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "4f8e725aca59b5c24a89a56be8d8979bea66cc2b4946366629cd4be6ca6391df"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Commons IO 2.2",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "cc964b74ec96dd46a79d52c9b2e4042f25cb1b6815d98c05937080858b43a7b5"
                     }
                 },
                 {
@@ -499,6 +583,27 @@
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Log4j 2.3",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "41881d761e273a3c59e7e511a6767e2d0771660aa72e5a9c6ec02e8256bc5b29"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
                                     "uri": "pom.xml"
                                 },
                                 "region": {
@@ -510,6 +615,195 @@
                     "ruleId": "Apache Struts 2.3.30",
                     "partialFingerprints": {
                         "primaryLocationLineHash": "415552d81abee4ec530ddef7a61a70ce5e938cde6d11be4e3e4111bf2df45a48"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Struts 2.3.30",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "415552d81abee4ec530ddef7a61a70ce5e938cde6d11be4e3e4111bf2df45a48"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Struts 1.3.8",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "30bc07d3109493d221435ee05606a04f2a34f4126e33076abd52866012489165"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Struts 1.3.8",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "30bc07d3109493d221435ee05606a04f2a34f4126e33076abd52866012489165"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Struts 1.3.8",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "30bc07d3109493d221435ee05606a04f2a34f4126e33076abd52866012489165"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Struts 2.3.30",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "415552d81abee4ec530ddef7a61a70ce5e938cde6d11be4e3e4111bf2df45a48"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Struts 2.3.30",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "415552d81abee4ec530ddef7a61a70ce5e938cde6d11be4e3e4111bf2df45a48"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Struts 2.3.30",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "415552d81abee4ec530ddef7a61a70ce5e938cde6d11be4e3e4111bf2df45a48"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Velocity 2.0",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "2d8b394b808c2513470921f06754defda0aa19a6368965fba24e8b30cf7336f6"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Apache Velocity 1.6.2",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "988a45d877e18779c412b88872e01bcc4449d86d5901be1d0e3e6868a0115beb"
                     }
                 },
                 {
@@ -562,6 +856,90 @@
                         {
                             "physicalLocation": {
                                 "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
                                     "uri": "pom.xml"
                                 },
                                 "region": {
@@ -573,6 +951,153 @@
                     "ruleId": "Spring Framework 3.0.5",
                     "partialFingerprints": {
                         "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "Spring Framework 3.0.5",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "7f2372046384e8426a200be5e48295f9c207070833042ad062e53c346bbf51dc"
+                    }
+                },
+                {
+                    "message": {
+                        "text": "This dependency has vulnerabilities. For detailed information regarding the vulnerabilities, take a look at the BDSAs and/or CVEs below. "
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "package manager file path not available"
+                                },
+                                "region": {
+                                    "startLine": 1
+                                }
+                            }
+                        }
+                    ],
+                    "ruleId": "dom4j: flexible XML framework for Java 1.6.1",
+                    "partialFingerprints": {
+                        "primaryLocationLineHash": "ac5751c735dbfe2a11ee4e9273ff090cdaf9659879d69c4e8638808359036203"
                     }
                 },
                 {
